@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../data-visualization-using-dash/.idea/data-visualization-using-dash.iml" filepath="$PROJECT_DIR$/../data-visualization-using-dash/.idea/data-visualization-using-dash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/module01-language-fundamentals.iml" filepath="$PROJECT_DIR$/.idea/module01-language-fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../module03-class-and-objects/.idea/module03-class-and-objects.iml" filepath="$PROJECT_DIR$/../module03-class-and-objects/.idea/module03-class-and-objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../module05-object-oriented-programming/.idea/module05-object-oriented-programming.iml" filepath="$PROJECT_DIR$/../module05-object-oriented-programming/.idea/module05-object-oriented-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../module08-string-handling/.idea/module08-string-handling.iml" filepath="$PROJECT_DIR$/../module08-string-handling/.idea/module08-string-handling.iml" />
+    </modules>
+  </component>
+</project>

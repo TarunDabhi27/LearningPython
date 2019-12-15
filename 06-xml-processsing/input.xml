@@ -1,0 +1,15 @@
+<company>
+    <name>Naveen Pvt Ltd</name>
+    <staff id="1001">
+        <nickname>Naveen</nickname>
+        <salary>100,000</salary>
+    </staff>
+    <staff id="1002">
+        <nickname>Tarun</nickname>
+        <salary>200,000</salary>
+    </staff>
+    <staff id="1003">
+        <nickname>Rohit</nickname>
+        <salary>150,000</salary>
+    </staff>
+</company>

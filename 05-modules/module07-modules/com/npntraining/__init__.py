@@ -1,0 +1,1 @@
+print("package com.npntraining loaded")
