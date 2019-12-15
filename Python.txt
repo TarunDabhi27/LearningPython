@@ -34,7 +34,7 @@ Self Study :
 
 
 
-
+Below are the commands to install dash and plotly using pip 
 pip install dash=0.21.1
 pip install dash-renderer==0.13.0
 pip install dash-html-components==0.11.0
