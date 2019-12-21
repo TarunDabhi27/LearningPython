@@ -1,0 +1,10 @@
+1. Pandas
+2. NumPy
+3. SciPy
+4. Matplotlib
+5. Seaborn
+6. Scikit Learn
+7. TensorFlow
+8. Keras
+9. Statsmodels
+10. Plotly
