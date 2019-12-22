@@ -40,3 +40,6 @@ pip install dash-renderer==0.13.0
 pip install dash-html-components==0.11.0
 pip install dash-core-components==0.23.0
 pip install plotly --upgrade
+
+Some good Links:
+https://www.youtube.com/watch?v=AisW8ZhqUuc
