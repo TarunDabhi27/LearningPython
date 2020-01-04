@@ -31,7 +31,7 @@ Self Study :
 9. Modules in python : os, subprocess
 10. How to call linux command from python code
 11. Run JAR from python
-
+11. What is the use of set?
 
 
 Below are the commands to install dash and plotly using pip 

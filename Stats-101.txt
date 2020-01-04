@@ -1,0 +1,55 @@
+Type of Data:
+
+    - Qualitative 
+
+        - Nominal: Named Variables, the order does not make any difference
+        - Ordinal: This is orderly values if the order will change then the meaning will change
+
+    - Quantitative
+
+        - Continuous: Can take any number
+        - Discrete: This has defined values but it should be numeric for eg. month number (1-12)
+        - Interval: In any series interval is the difference between two values, if we have zero in this it should have a meaning like 0 temperature but not 0 weight, So it can not have an absolute zero
+        - Ratio: This is a ratio between two or more values and this can have an absolute zero for ex. age: A is 15 years old B is 20 years old ratio is 3:4
+
+
+1. Descriptive Statistics: 
+
+    - Central Tendency
+        - Mean
+        - Median
+        - Mode 
+    
+    - Measure of dispersion
+        - Range
+        - Variance 
+        - Standard Deviation
+        - Coefficient of variance : This is used to compare two dataset with two different units like (weight and height)
+
+    - Sampling
+        - Random Sampling
+        - Stratified Sampling
+        - Read different types of Sampling
+        
+
+    - Normal Distribution(Rule to satisfy Normal Distribution)
+        - Mean, Median and Mode all are same (It should be μ)
+        - 68% of data should be in Standard Deviation 1 (From μ-σ to μ+σ)
+        - 95% of data should be in Standard Deviation 2 (From μ-2σ to μ+2σ)
+        - 99.7% of data should be in Standard Deviation 3 (From μ-3σ to μ+3σ)
+
+        Z-score = ( x - μ ) / σ
+
+        x = 80, μ = 25 and σ = 5 then 
+        
+        ( 80 - 25 ) / 5 =  11 ( 11 is z-score )
+
+
+        NOTE : Sampling is divided ny n-1 where n is a sample size, to bring the variance and Standard Deviation near to mean.
+
+
+    - Measure of Shape(Skewness)
+
+        - Positive Skew
+        - Symmetric Distribution
+        - Negative Skew 
