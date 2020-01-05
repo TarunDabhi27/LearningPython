@@ -40,7 +40,9 @@ Type of Data:
 
         Z-score = ( x - μ ) / σ
 
-        x = 80, μ = 25 and σ = 5 then 
+        x = 80 (any value), 
+        μ = 25 (Mean)
+        σ = 5 (Standard Deviation)
         
         ( 80 - 25 ) / 5 =  11 ( 11 is z-score )
 
@@ -48,8 +50,34 @@ Type of Data:
         NOTE : Sampling is divided ny n-1 where n is a sample size, to bring the variance and Standard Deviation near to mean.
 
 
-    - Measure of Shape(Skewness)
+    - Measure of Shape (Skewness)
 
         - Positive Skew
         - Symmetric Distribution
         - Negative Skew 
+
+
+2. Inferential Statistics: 
+
+    - Corelation
+        - Positive Corelation - When increase in one Variable increases the value of other Variable and vice versa. 
+        - Negative Corelation - When increase in one Variable decreases the value of other Variable and vice versa.
+        - No Corelation - When change in one Variable does not make any change in other Variable.
+
+        Value of Corelation lies between -1 and +1
+
+    - Covariance
+        This will not tell you the degree of relationship this will give +ve and -ve value to check if it is Positively related or -ve for Negatively related. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Probability 
+
+    - Random Variable
+        - Discrete Random Variable - P(H) : Probability of getting head , P(T) : Probability of getting Tail
+        - Continuous Random Variable - P(W<100) : Probability of having (W)eight less then 100
+
+    - Additive Rule of Probability - Below is the rule for mutually inclusive event
+        - P(A or B) = P(A) + P(B) - P(A and B)
+ 
