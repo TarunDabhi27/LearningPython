@@ -81,3 +81,21 @@ Probability
     - Additive Rule of Probability - Below is the rule for mutually inclusive event
         - P(A or B) = P(A) + P(B) - P(A and B)
  
+    -- Conditional Probability
+        - P(B|A) = Probability of B when A has happened
+        Formula : P(B|A) = P(B and A) / P(A)
+
+    -- Bayes Theorem : https://en.wikipedia.org/wiki/Bayes%27_theorem
+    -- Binomial Distribution : https://en.wikipedia.org/wiki/Binomial_distribution
+    -- Poisson Distribution : https://en.wikipedia.org/wiki/Poisson_distribution
+    -- Hypothesis Testing : 
+        Null Hypothesis : When the result of the testing comes true.
+        ALternative Hypothesis : When the result of the testing comes false.
+
+    -- Types of error in Hypothesis : https://en.wikipedia.org/wiki/Type_I_and_type_II_errors
+        
+        - When Null Hypothesis is : person has a cancer
+        Type I Error or Alpha(α) Error : and testing result says that it does not has a cancer.
+
+        - When Null Hypothesis is : person does not have a cancer
+        Type II Error or Beta(β) Error :  and testing result says that it has a cancer.
