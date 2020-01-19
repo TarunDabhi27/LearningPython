@@ -90,12 +90,45 @@ Probability
     -- Poisson Distribution : https://en.wikipedia.org/wiki/Poisson_distribution
     -- Hypothesis Testing : 
         Null Hypothesis : When the result of the testing comes true.
-        ALternative Hypothesis : When the result of the testing comes false.
+        Alternative Hypothesis : When the result of the testing comes false.
 
     -- Types of error in Hypothesis : https://en.wikipedia.org/wiki/Type_I_and_type_II_errors
         
         - When Null Hypothesis is : person has a cancer
         Type I Error or Alpha(α) Error : and testing result says that it does not has a cancer.
+        Alpha(α) can have these 3 values .1, .05 and .01
 
         - When Null Hypothesis is : person does not have a cancer
         Type II Error or Beta(β) Error :  and testing result says that it has a cancer.
+
+    -- Hypothesis Testing
+        - T Testing
+        - Two-sample T Testing
+        - Paired T Testing
+        - Chi Square Test for independence 
+        - ANOVA (ANalysis Of VAriance)Testing 
+            - One Way ANOVA
+            - Two Way ANOVA
+            - ANCOVA (ANalysis of CO-VAriance)
+
+            SSB -> SSC : Explained Variance : How much variance can we explain.
+            SSB : Sum of Square Between the column
+
+            SSW -> SSE : Error : 
+            SSW : Sum of Square Within the column
+
+            F = MSC / MSE
+            MSC : Mean Sum of Square Between the column
+            MSE : Mean Sum of Square Within the column
+
+            statsmodels(statsmodels.api and statsmodels.formula.api) package will be used for ANOVA.
+
+            Assumptions After performing ANOVA :
+                - Equal variance between the group
+                - Residual should be normal distributed
+                - Variables should be independent
+
+            - ANOVA in Statistics 101 - https://www.youtube.com/watch?v=0Vj2V2qRU10&list=PLIeGtxpvyG-KA-BLkL391X__r0kU4_hm5
+            - ANOVA test in python - Read about this
+
+        - Tukey hsd testing
