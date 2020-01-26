@@ -1,0 +1,9 @@
+Linear Regression : 
+    - Gradient Descent
+        - Cost Function
+    - Ordinary Least Square (OLS) Regression
+    
+    MSE - Mean Square of error and 
+    RMSE - Square Root of MSE
+
+    Check the videos of Andrew Ng's Linear Regression 
