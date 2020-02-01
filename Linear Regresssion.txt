@@ -6,4 +6,38 @@ Linear Regression :
     MSE - Mean Square of error and 
     RMSE - Square Root of MSE
 
-    Check the videos of Andrew Ng's Linear Regression 
+    NOTE : Check the videos of Andrew Ng's Linear Regression.
+
+
+    - Valid use case
+    - Data Extraction 
+    - Exploratory Data Analysis (EDA)
+        - Missing value treatment
+            1. Replace the missing Numeric value with Mean/Median value.
+            2. Replace the missing Categorical values with Mode value.
+        - Outliers treatment
+            - Capping - Setting the upper bound - 99 Percentile will be the Cap or Q3+(1.5 * IQR)
+            - Flooring - Setting the lower bound - 1 Percentile will be the Floor or Q1-(1.5 * IQR)
+        - Corelation
+        - Plot different graphs for data Analysis
+                - Uni-Variant Analysis
+                - Bi-Variant Analysis
+
+    - Build ML Model
+    - Validate ML Model
+
+    NOTE : 
+        1. Drop the Missing values when the percentage of missing values as compared to total number of records is less. This is the last option.
+            We have other ways as well like treating the values by setting he mean or setting it to zero etc.
+
+        2. We can convert the data into "logarithmic form" if we don't have the normal distribution in the data. 
+
+
+
+    SciKit learn needs all the data in Numeric, so we have to convert the categorical values into numeric 
+        for ex. for gender column : male and female will be 0 and 1
+            male = 0
+            female = 2
+        There are two ways to do this as below: 
+            - Label Encoding - This is not mostly used as different value give priority to values which is not good. 
+            - One hot encoding or dummy encoding - This is mostly used method.
