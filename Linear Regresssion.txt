@@ -32,12 +32,30 @@ Linear Regression :
 
         2. We can convert the data into "logarithmic form" if we don't have the normal distribution in the data. 
 
-
+    - Learn about Square Transformation.
+    - If we do not drop first column from dummy table what effect can happen?
 
     SciKit learn needs all the data in Numeric, so we have to convert the categorical values into numeric 
-        for ex. for gender column : male and female will be 0 and 1
+        For Ex. for gender column : male and female will be 0 and 1
             male = 0
             female = 2
         There are two ways to do this as below: 
             - Label Encoding - This is not mostly used as different value give priority to values which is not good. 
             - One hot encoding or dummy encoding - This is mostly used method.
+
+
+    Assumption of Linear Regression Model (Parametric Test): 
+        - Error should be normally distributed
+        - There should not be Heteroscedasticity 
+        - There should not be Multicollinearity : When two independent columns have correlation, it is called multicollinearity.
+            To check the multicollinearity we can use VIF(Variance Inflation Factors).
+            VIF = 1 / ( 1 - R² )
+            If VIF < 4 then no Multicollinearity
+            If VIF > 4 then Multicollinearity is present
+        - There should not be auto serial correlation
+            To check "auto serial correlation" we can use "Durbin Watson" test
+            If the value is close to 2 then no auto serial correlation
+            If the value is < 1.75  
+
+
+    NOTE : Opposite of Heteroscedasticity is Homoscedasticity     
