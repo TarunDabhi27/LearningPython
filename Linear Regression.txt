@@ -52,10 +52,15 @@ Linear Regression :
             VIF = 1 / ( 1 - R² )
             If VIF < 4 then no Multicollinearity
             If VIF > 4 then Multicollinearity is present
+
+            Ridge Regression and Principle Component Analysis(PCA) is used to overcome this problem
+
+
         - There should not be auto serial correlation
             To check "auto serial correlation" we can use "Durbin Watson" test
             If the value is close to 2 then no auto serial correlation
-            If the value is < 1.75  
+            If the value is < 1.75 then -VE auto serial correlation
+            If the value is > 2.25 then +VE auto serial correlation
 
 
     NOTE : Opposite of Heteroscedasticity is Homoscedasticity     

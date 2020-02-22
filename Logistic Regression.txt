@@ -1,0 +1,23 @@
+Logistic Regression : This is used for classification use-cases.
+
+    - Binomial Logistic Regression/Classification/Distribution : When you have two classes.
+    - Multinomial Logistic Regression/Classification/Distribution : When you have multiple classes.
+
+    URL for further reading : 
+    1. https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html
+    2. Check the video in StatsQuest also
+
+Cost Function in Logistic Regression : 
+
+odds = Probability / (1 - Probability)
+if Probability is 2/5 then 
+odds = 2/5 / (1 - 2/5)  = 2/3
+
+odds Ration = ration of two odds
+
+
+NOTE : Odds Ratio is the foundation of Logistic Regression.
+
+- Sigmoid Function
+- Logit Function: Used to link Probability with Independent Variable.
+- Probit Function

@@ -1,0 +1,40 @@
+Confusion Matrix: 
+
+    True Positive (TP): When both Actual and Prediction it is Positive.
+    True Negative (TN): When both Actual and Prediction it is Negative.
+
+    False Positive (FP): When Actual was Negative but the model predicted it as Positive( Which is false so called false Positive).
+    False Negative (FN): When Actual was Positive but the model predicted it as Negative( Which is false so called false Negative).
+
+
+    Accuracy = ( TP + TN ) / ( TP + TN + FP + FN )
+
+
+    Precision: TP / ( TP + FP ) = Predicted TP / Total Actual Positive
+
+    Recall/Sensitivity/TPR : TP / ( TP + FN  ) = Predicted TP / Total Predicted Positive
+
+    FPR = 1 - TNR
+
+Receiver Operating Characteristic Curve (ROC Curve): 
+    The more area under the curve is the more good model is.
+    It is a curve between TP Rate(TPR) and FP Rate(FPR).
+
+
+Precision & Recall Curve: When we have highly imbalance dataset we can use this.
+
+NOTE: Check StatQuest Vidoes for this topics.
+
+F₁ Score: We use F₁ Score to select best algorithm.
+
+Formula for F₁ Score: ( 2 * P * R ) / ( P + R )
+where P is Precision and R is Recall.
+
+
+
+Handling Imbalance dataset:
+
+1. Use more datasets
+2. Resampling Tequniue: Oversampling
+3. Under Sampling 
+4. Generate Synthetic Samples: SMOTE ( Synthetic Minority Oversampling TEchnique )
