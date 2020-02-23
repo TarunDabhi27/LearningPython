@@ -10,9 +10,9 @@ Confusion Matrix:
     Accuracy = ( TP + TN ) / ( TP + TN + FP + FN )
 
 
-    Precision: TP / ( TP + FP ) = Predicted TP / Total Actual Positive
+    Precision: TP / ( TP + FP ) = Predicted TP / Total Predicted Positive
 
-    Recall/Sensitivity/TPR : TP / ( TP + FN  ) = Predicted TP / Total Predicted Positive
+    Recall/Sensitivity/TPR : TP / ( TP + FN  ) = Predicted TP / Total Actual Positive
 
     FPR = 1 - TNR
 
@@ -23,7 +23,7 @@ Receiver Operating Characteristic Curve (ROC Curve):
 
 Precision & Recall Curve: When we have highly imbalance dataset we can use this.
 
-NOTE: Check StatQuest Vidoes for this topics.
+NOTE: Check StatQuest Videos for this topics.
 
 F₁ Score: We use F₁ Score to select best algorithm.
 
