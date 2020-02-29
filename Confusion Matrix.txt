@@ -30,11 +30,12 @@ F₁ Score: We use F₁ Score to select best algorithm.
 Formula for F₁ Score: ( 2 * P * R ) / ( P + R )
 where P is Precision and R is Recall.
 
-
-
 Handling Imbalance dataset:
 
 1. Use more datasets
 2. Resampling Tequniue: Oversampling
 3. Under Sampling 
 4. Generate Synthetic Samples: SMOTE ( Synthetic Minority Oversampling TEchnique )
+
+
+NOTE : check https://seaborn.pydata.org/ for getting more details about chart type and there usage.
