@@ -39,3 +39,16 @@ Handling Imbalance dataset:
 
 
 NOTE : check https://seaborn.pydata.org/ for getting more details about chart type and there usage.
+
+
+Steps we followed in logistic regression as per the notebook: 
+
+    - Load Data
+    - Null value check
+    - Finding Outliers
+    - Removing Outliers
+    - Checking relationship between different feature variable and target variable
+    - Grouping multiple columns into one (???)
+    - Splitting the data in to train and test
+    - Dropping unwanted columns form feature_train and feature_test
+    - 

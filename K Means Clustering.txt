@@ -1,0 +1,29 @@
+K Mean - 
+    This is unsupervised algorithm, and we do not have target variable.
+
+1. Choose the number of cluster needed say "n"
+2. "n" random points will be selected in cluster, and these "n" points will be center of cluster
+3. Distance between these "n" points and other points will be calculated and formed the Clusters.
+4. Mean will be calculating for each Cluster and these points will be the center of the Clusters.
+5. These all steps will be repeated until no cluster repositioning is happening. 
+
+NOTE: If few columns are dominating  because of big number like salary, 
+This type of columns will be standardized by some methods so it will reduce the value of salary(called scaling).
+
+
+- How to choose K value i.e. Number of Clusters?
+    There are two methods of choosing K value
+    1. Elbow Plot : 
+        Graph will be plot X will range from 2 to 10 representing different value of K
+        Y will represent the sum of intra-distance(distance between center and other points of cluster). 
+        We will draw the graph and select the best point.
+    
+    2. Silhouette Score :
+        This will give value from -1 to 1.
+        When we get the value 1 as a result it means all the clusters are different.
+        When the values are less then 1 it means the clusters are not proper.
+
+        Formula : b - a / Max( b - a )
+
+        a : Mean of intra-distance
+        b : Mean of distance with the mean of nearest cluster
