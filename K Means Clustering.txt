@@ -8,7 +8,7 @@ K Mean -
 5. These all steps will be repeated until no cluster repositioning is happening. 
 
 NOTE: If few columns are dominating  because of big number like salary, 
-This type of columns will be standardized by some methods so it will reduce the value of salary(called scaling).
+This type of columns will be standardized by some methods so it will reduce the value of salary, this processes called scaling.
 
 
 - How to choose K value i.e. Number of Clusters?

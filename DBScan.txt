@@ -1,0 +1,13 @@
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise ): 
+    This needs two parameter 
+        1. Epsilon (ε)
+        2. Min-Sample
+
+
+Read Below Topics: 
+- Euclidean Distance Formula
+- Manhattan Distance Formula
+- Hierarchical Clustering
+- Dendrogram
+- Agglomerative Clustering
+- Divisive Clustering
